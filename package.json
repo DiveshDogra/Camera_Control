@@ -1,7 +1,7 @@
 {
     "name": "com.boredleaders.camera",
     "version": "1.0.0",
-    "displayName": "Dice 3D",
-    "description": "A 3D Dice with rigged functionality.",
+    "displayName": "Camera Control",
+    "description": "Api Calls to control camera movements.",
     "unity": "2019.4"
 }
