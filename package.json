@@ -1,0 +1,7 @@
+{
+  "name": "com.boredleaders.bl_Camera",
+  "version": "1.0.0",
+  "displayName": "Camera"
+  "description": "Camera Functionality",
+  "unity": "2020.3"
+}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 228483a0fccb1a34bb1d1b3b48ec55c4, type: 3}
+  m_Name: CameraSO
+  m_EditorClassIdentifier: 
+  maxRightSwivelAngle: 145
+  maxLeftSwivelAngle: 215
+  baseMoveSpeed: 1
+  rotateSpeed: 2000
+  stopDuration: 1
+  stopSpeed: 50
+  _2dCamPos_2P: {x: 0, y: 0.81, z: -0.5}
+  _2dCamPos_3P: {x: 0, y: 0.64, z: -0.4}
+  _3dCampos: {x: 0, y: 1.75, z: -0.1}
+  _current2DCamPos: {x: 0, y: 0, z: 0}
+  _3dCamRot: {x: 40, y: 160, z: 0}
+  _2dCamRot: {x: 90, y: 90, z: 270}
