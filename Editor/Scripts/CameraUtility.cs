@@ -26,13 +26,8 @@ public class CameraUtility : MonoBehaviour
     {
         if (transform.localRotation.eulerAngles.y >= maxRightSwivelAngle)
         {
-            Debug.Log("Correct Right");
             transform.DOLocalRotate(Vector3.down * rotateSpeed * Time.deltaTime, 0.1f).SetEase(Ease.Linear).SetRelative().OnUpdate(
             () => CameraLookAt(lookAtObject)).OnComplete(() => CameraEvents.StopCamEventCaller(Vector3.down));
-        }
-        else
-        {
-            Debug.Log("Inccoret Right");
         }
     }
 
@@ -40,13 +35,8 @@ public class CameraUtility : MonoBehaviour
     {
         if (transform.localRotation.eulerAngles.y <= maxLeftSwivelAngle)
         {
-            Debug.Log("Correct Left");
             transform.DOLocalRotate(Vector3.up * rotateSpeed * Time.deltaTime, 0.1f).SetEase(Ease.Linear).SetRelative().OnUpdate(
             () => CameraLookAt(lookAtObject)).OnComplete(() => CameraEvents.StopCamEventCaller(Vector3.up));
-        }
-        else
-        {
-            Debug.Log("Inccoret Left");
         }
     }
 

@@ -11,14 +11,11 @@ public class CameraController : MonoBehaviour
     {
         CameraEvents.StopCam += StopCamera;
     }
-    private void Start()
-    {
-        SetStartCamera();
-    }
 
-    public void SetStartCamera()
+
+    public void MoveCamera(Vector3 pos, Vector3 rot, float duration)
     {
-        _cameraUtility.MoveCameraToPosition(_cameraSO._3dCampos, _cameraSO._3dCamRot, _cameraSO.baseMoveSpeed);
+        _cameraUtility.MoveCameraToPosition(pos, rot, duration);
     }
 
 
